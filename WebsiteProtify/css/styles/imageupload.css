@@ -1,0 +1,42 @@
+#imageshow {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    color: #676767;
+}
+
+.formupload {
+    width: 30%;
+    margin: auto;
+    background-color: white;
+    font-family: Arial;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    margin-left: -15%;
+    margin-top: -15%;
+    box-shadow: 1px 1px 5px #444444;
+    padding: 20px 10px 20px 10px;
+    z-index: 10;
+}
+#image-holder{
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+
+@media screen and (max-width:468px){
+    .formupload{
+        width:350px;
+         position: relative;
+    left: 50%;
+    top: 30%;
+    margin-left: -175px;
+    margin-top: -175px;
+    }
+}
